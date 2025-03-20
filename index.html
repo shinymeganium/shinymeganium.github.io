@@ -1,7 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Bento Grid</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="w-full h-full mt-6 box-border flex justify-center">
+        <div class="md:w-2/3 md:h-2/3 box-border border">
+
+            <div class="md:w-full md:h-full grid md:grid-cols-4 gap-6 box-border">
+    
+                <div class="md:grid md:gap-6 md:grid-cols-3 md:col-span-3 md:col-start-2 box-border">
+    
+                    <div class="bg-susydarkpurple rounded-xl p-8 md:col-span-2">
+                        <p class="text-white text-5xl text-center pb-6">Social Media<br class="md:hidden"><span class="text-susyyellow">10x</span> Faster <br class="md:hidden">with AI</p>
+                        <img src="images\illustration-five-stars.webp" alt="5 stars" class="w-1/2 block m-auto">
+                        <p class="text-white text-xl text-center">Over 4,000 5-star reviews</p>
+                    </div>
+    
+                    <div class="bg-white rounded-xl p-3 md:row-start-2">
+                        <div class="w-full md:overflow-hidden"><img class="block m-auto md:ml-10 md:scale-150" src="images\illustration-multiple-platforms.webp" alt="multiple platforms"></div>
+                        <p class="text-2xl mt-2 font-semibold pr-3">Manage multiple accounts and platforms.</p>
+                    </div>
+    
+                    <div class="bg-susyyellow rounded-xl px-3 pt-2 pb-0">
+                        <p class="text-2xl font-semibold pr-15 pb-3">Maintain a consistent posting schedule.</p>
+                        <div class="h-[150px] overflow-hidden"><img class="w-2/3 md:w-full" src="images\illustration-consistent-schedule.webp" alt="consistent schedule"></div>
+                    </div>
+
+                    <div class="bg-susylightpurple rounded-xl px-3 py-6 md:row-start-1 md:col-start-3 md:row-span-2">
+                        <p class="text-2xl font-semibold md:pr-10">Schedule to social media.</p>
+                        <div class="md:py-8 md:pl-8 md:overflow-hidden">
+                            <img class="py-3 md:scale-140" src="images\illustration-schedule-posts.webp" alt="schedule posts"></div>
+                        <p class="text-[18px] text-center px-8 md:text-left md:pl-3 md:pr-1">Optimize post timing to publish content at the perfect time for your audience.</p>
+                    </div>
+    
+                    <div class="bg-susydarkpurple rounded-xl py-6 md:col-start-2 md:col-span-2">
+                        <img class="block m-auto w-2/3 md:w-1/4" src="images\illustration-grow-followers.webp" alt="grow followers"><br>
+                        <p class="text-3xl text-white text-center mx-12">Grow followers with non-stop content.</p>
+                    </div>
+    
+                    <div class="bg-white rounded-xl p-3 md:row-start-3 md:col-start-1">
+                        <p class="text-5xl pb-1">>56%</p>
+                        <p class="text-[17px] pb-4">faster audience growth</p>
+                        <img class="w-1/2 md:w-full" src="images\illustration-audience-growth.webp" alt="audience grow">
+                    </div>
+    
+                </div>
+    
+                <div class="md:grid md:gap-6 md:row-start-1">
+    
+                    <div class="bg-susylightbrown rounded-xl p-6">
+                        <p class="text-3xl pr-8 pb-5 md:text-left">Create and schedule content <span class="text-susydarkpurple italic">quicker.</span></p>
+                        <img class="block w-1/2 pb-3" src="images\illustration-create-post.webp" alt="create post">
+                    </div>
+    
+                    <div class="bg-susyyellow rounded-xl p-6">
+                        <p class="text-3xl pb-5">Write your content using AI.</p>
+                        <img class="block w-3/4" src="images\illustration-ai-content.webp" alt="AI content">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 </body>
 </html>
+<!-- Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process -->
+<!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
